@@ -1,0 +1,7 @@
+C:\src\dba\trunk\SQLDataGenerationTool2\SQLDataGenerationTool2\bin\Debug\SQLDataGenerationTool2.exe.config
+C:\src\dba\trunk\SQLDataGenerationTool2\SQLDataGenerationTool2\bin\Debug\SQLDataGenerationTool2.exe
+C:\src\dba\trunk\SQLDataGenerationTool2\SQLDataGenerationTool2\bin\Debug\SQLDataGenerationTool2.pdb
+C:\src\dba\trunk\SQLDataGenerationTool2\SQLDataGenerationTool2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\src\dba\trunk\SQLDataGenerationTool2\SQLDataGenerationTool2\obj\x86\Debug\SQLDataGenerationTool2.exe
+C:\src\dba\trunk\SQLDataGenerationTool2\SQLDataGenerationTool2\obj\x86\Debug\SQLDataGenerationTool2.pdb
+C:\src\dba\trunk\SQLDataGenerationTool2\SQLDataGenerationTool2\bin\Debug\ScriptGenerator.xslt

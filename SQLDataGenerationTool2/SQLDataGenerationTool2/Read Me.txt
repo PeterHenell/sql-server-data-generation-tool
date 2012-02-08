@@ -1,0 +1,20 @@
+This tool is used to generate Insert scripts for data using a selected Database as source.
+
+First edit the configuration file to select server and database.
+EDIT SQLDataGenerationTool2\bin\Release\SQLDataGenerationTool2.exe.config
+Modify the outputFolder path to an existing folder.
+Modify the connectionstring to point to the server and database that you wish to extract data from.
+
+to run the tool
+SQLDataGenerationTool2\bin\Release\SQLDataGenerationTool2.exe
+
+OPTIONS while running the tool
+Table name: 
+	Input the name of a table if you wish to only generate data from one table. Leave blank to generate data from all the tables in the database. WARNING...
+
+Include WHEN MATCHED THEN UPDATE [Y/N]
+	This option will include a WHEN MATCHED THEN UPDATE clause in the result scripts.
+	Note, this will update all the columns for the table and this may not be what you want. This will reset the data to the original state. DO NOT USE IN PRODUCTION.
+
+Use the DEFAULT values instead of saved values for datetime columns [Y/N]
+	This will use the default constraint of the column if it is DATETIME or VARCHAR, instead of using the value that is stored in the row.
